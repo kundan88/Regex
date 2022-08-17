@@ -23,6 +23,13 @@ namespace RegexPattern
             string lastName = Console.ReadLine();
             person.ValidLastName(lastName);
 
+            //UC3
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("Enter The Email_ID: ");
+            string EmailID = Console.ReadLine();
+            person.EmailID(EmailID);
+
         }
     }
 }
+
